@@ -1,0 +1,7 @@
+FROM node:alpine
+
+WORKDIR /usr/src/app
+
+COPY writer.js .
+
+CMD ["node", "writer.js"]
